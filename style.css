@@ -18,6 +18,25 @@
   background: #0b2f67;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+.navbar-toggler{
+background:#c0c1c200;
+border:none;
+padding:8px 12px;
+border-radius:6px;
+border: 2px solid #0b2c6b;
+}
+.top-header .nav-link{
+padding:12px 0;
+text-align: start;
+color: #0b2c6b;
+}
+.top-header .nav-link:hover{
+padding:12px 0;
+text-align: start;
+color: #ffffff;
+background-color: #0b2c6b;
+}
+
 .nav-link {
   color: #ffffff;
   font-weight: 600;
@@ -34,11 +53,11 @@
 .main_header{
     background-color: #0C2B64;
 }
-.navbar-expand-lg {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap: 100px;
+.mobile-nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap: 0;
 }
 .banner_sec{
      background:linear-gradient(0deg, rgba(0, 0, 0, 0.5)), url("./images/whd26-web-banner.tmb-1920v.jpg");
@@ -351,36 +370,5 @@ img.card-img {
     height: 100px;
     padding: 20px;
     text-align: center;
-}
-.logo{
-height:55px;
-}
-.navbar-toggler{
-background:#c0c1c200;
-border:none;
-padding:8px 12px;
-border-radius:6px;
-border: 2px solid #0b2c6b;
-}
-.navbar-expand-lg {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap: 0;
-}
-.top-header .nav-link{
-padding:12px 0;
-text-align: start;
-color: #0b2c6b;
-}
-.top-header .nav-link :hover{
-padding:12px 0;
-text-align: start;
-color: #ffffff;
-background-color: #0b2c6b;
-}
-.donate-btn{
-padding:10px 25px;
-font-weight:600;
 }
 }
